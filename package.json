@@ -30,5 +30,8 @@
     "gulp-strip-comments": "^2.5.2",
     "gulp-uglify": "^3.0.2",
     "path": "^0.12.7"
+  },
+  "dependencies": {
+    "@fjbo-net/strbr": "^1.4.0"
   }
 }

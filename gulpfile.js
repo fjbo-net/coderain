@@ -107,6 +107,8 @@ pkgs.gulp.task(`js:prep`, () => pkgs.gulp
 
 pkgs.gulp.task(`js:bundle`, () => pkgs.gulp
 	.src([
+		pkgs.path.join( dirs.npm, `@fjbo-net/strbr/strbr.bundle.min.js` ),
+
 		pkgs.path.join( dirs.dist, `/**/*.js` )
 	])
 	.pipe(pkgs.concat(`${config.project.filename}.bundle.js`))
