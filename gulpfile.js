@@ -71,6 +71,8 @@ pkgs.gulp.task(`js:package-json`, callback => {
 		if(packageJson[propertyName]) delete(packageJson[propertyName]);
 	}
 
+	packageJson.main = `main.js`;
+
 	pkgs.fs.writeFile(
 		pkgs.path.join(dirs.dist, `/package.json`),
 		JSON.stringify(packageJson),
