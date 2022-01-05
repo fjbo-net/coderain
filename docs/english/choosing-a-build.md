@@ -1,9 +1,9 @@
 # Choosing a Build
 CodeRain is distributed in four different build formats for flexibility and ease of use. The redistributable builds are the following:
-* [main.js](#main-js) (main build, DOES NOT include dependencies)
-* [main.min.js](#main-min-js) (minified build, DOES NOT include dependencies)
-* [main.bundle.js](#main-bundle-js) (bundled build, INCLUDES dependencies)
-* [main.bundle.min.js](#main-bundle-min-js) (bundled minified build, INCLUDES dependencies)
+* [main.js](#mainjs) (main build, DOES NOT include dependencies)
+* [main.min.js](#mainminjs) (minified build, DOES NOT include dependencies)
+* [main.bundle.js](#mainbundlejs) (bundled build, INCLUDES dependencies)
+* [main.bundle.min.js](#mainbundleminjs) (bundled minified build, INCLUDES dependencies)
 
 Just a heads up, for people just getting started with NPM modules, you only need a SINGLE build. Even though your project might contain all builds, you only need to reference ONE of them.
 
